@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Roboto:wght@100;300;500&display=swap');
+
+
+
+body{
+    font-family: Roboto, sans-serif;
+}
+
+#logo{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 10px;
+    border-bottom: solid black;
+}
+
+#login{
+    flex: 1;
+    max-width: 200px;
+    color: black;
+    background-color: ligthgrey;
+    border: solid black;
+    border-radius: 5px;
+}
+
+#signup{
+    flex: 1;
+    max-width: 200px;
+    color: black;
+    background-color: ligthgrey;
+    border: solid black;
+    border-radius: 5px;
+}
+
+#contact{
+    flex: 1;
+    max-width: 200px;
+    color: black;
+    background-color: ligthgrey;
+    border: solid black;
+    border-radius: 5px;
+}
+
+#map{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top: 20px;
+}
+
+#intro{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1em;
+}
+
+#introbuttons{
+    display: flex;
+    justify-content: center;
+}
+
+button + button{
+    margin-left: 1rem;
+}
+
+#speciesone{
+    margin-right: 10px;
+}
+
+#speciestwo{
+    margin-right: 10px;
+}
+
+#legend{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 200px;
+    margin-left: 200px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#cards{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row: auto;
+    gap: 1rem;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.card{
+    border: solid lightgrey;
+    box-shadow: 0 2px 5px 0 (black);
+    border-radius: .25rem;
+    overflow: hidden;
+}
+
+.card-img{
+    overflow: hidden;
+}
+
+.card-img > img{
+    display: block;
+    width: 100%;
+    max-height: 400px;
+    aspect-ratio: 10 / 9;
+    object-fit: cover;
+    object-position: center;
+}
+
+.card-body{
+    padding: 1rem;
+    color: black;
+}
+
+a:link{
+    text-decoration: none;
+    color: black;
+}
+
+a:visited{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    text-decoration: none;
+    color: black;
+}
+
+a:active{
+    text-decoration: none;
+    color: black;
+}
+
+.card-icons{
+    padding: 1rem;
+    float: right;
+}
+
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    border-top: solid black;
+    padding-top: 10px;
+}
+
+#copyright{
+    font-size: 0.7em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
